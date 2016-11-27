@@ -1,0 +1,38 @@
+{
+  "name": "objective-php/notification",
+  "description": "Objective PHP Notification component",
+  "type": "library",
+  "keywords": [
+    "components",
+    "objective php"
+  ],
+  "homepage": "https://github.com/objective-php/notification",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Gauthier 'Rusty' Delamarre",
+      "email": "gauthier@objective-php.org",
+      "role": "lead"
+    },
+    {
+      "name": "Jérôme 'Neofox' Schaeffer",
+      "email": "jerome@objective-php.org",
+      "role": "dev"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "objective-php/primitives": "1.*",
+    "objective-php/matcher": "1.*"
+  },
+  "require-dev":
+  {
+  	"phpunit/phpunit": "5.*",
+  	"objective-php/phpunit-extension": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ObjectivePHP\\Notification\\": "src/"
+    }
+  }
+}

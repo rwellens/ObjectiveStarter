@@ -1,0 +1,32 @@
+{
+  "name": "objective-php/components",
+  "description": "Objective PHP Components",
+  "type": "library",
+  "keywords": [
+    "primitives",
+    "objective php"
+  ],
+  "homepage": "https://github.com/objective-php/components",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Gauthier 'Rusty' Delamarre",
+      "email": "gauthier@objective-php.org",
+      "role": "lead"
+    },
+    {
+      "name": "Jérôme 'Neofox' Schaeffer",
+      "email": "jerome@objective-php.org",
+      "role": "dev"
+    }
+  ],
+  "require": {
+    "objective-php/primitives": "1.*",
+    "objective-php/matcher": "1.*",
+    "objective-php/phpunit-extension": "1.*",
+    "objective-php/config": "1.*",
+    "objective-php/notification": "1.*",
+    "objective-php/invokable": "1.*",
+    "objective-php/data-processor": "1.*"
+  }
+}

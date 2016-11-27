@@ -1,0 +1,29 @@
+{
+  "name": "objective-php/matcher",
+  "description": "Generic engine to match identifiers against simple yet powerful patterns",
+  "type": "library",
+  "keywords": [
+    "matcher", "objective php"
+  ],
+  "homepage": "https://github.com/objective-php/matcher",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Gauthier 'Rusty' Delamarre",
+      "email": "gauthier@objective-php.org",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "objective-php/phpunit-extension": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ObjectivePHP\\Matcher\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "objective-php/starter-kit",
+  "description": "Objective PHP Project Template",
+  "type": "skeleton",
+  "keywords": [
+    "skeleton",
+    "objective php"
+  ],
+  "homepage": "https://github.com/objective-php/starter-kit",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Gauthier 'Rusty' Delamarre",
+      "email": "gauthier@objective-php.org",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "objective-php/application": "dev-master",
+    "objective-php/router": "dev-master",
+    "objective-php/fastroute-package": "dev-master",
+    "objective-php/doctrine-package": "dev-master",
+    "twbs/bootstrap": "^3.3",
+    "nelmio/alice": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Project\\": "app/src"
+    }
+  }
+}
+fLdu7f5soM

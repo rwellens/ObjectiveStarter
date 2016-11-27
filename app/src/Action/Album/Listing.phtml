@@ -1,0 +1,14 @@
+<?php
+use ObjectivePHP\Application\View\Helper\Vars;
+
+?>
+
+<table class="table table-striped">
+
+
+    <?php foreach (Vars::get('albums') as $album): ?>
+        <tr>
+            <td><?= $album ?></td>
+        </tr>
+    <?php endforeach; ?>
+</table>

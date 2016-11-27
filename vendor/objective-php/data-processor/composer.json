@@ -1,0 +1,36 @@
+{
+  "name": "objective-php/data-processor",
+  "description": "Objective PHP Data Processor component",
+  "type": "library",
+  "keywords": [
+    "data procesosr",
+    "objective php"
+  ],
+  "homepage": "https://github.com/objective-php/data-processor",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Gauthier 'Rusty' Delamarre",
+      "email": "gauthier@objective-php.org",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "objective-php/primitives": "1.*",
+    "objective-php/matcher": "1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.*",
+    "objective-php/phpunit-extension": "*",
+    "objective-php/services-factory": "1.0.*",
+    "objective-php/events-handler": "1.0.*",
+    "objective-php/message": "0.9.*",
+    "objective-php/application": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ObjectivePHP\\DataProcessor\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "5da494325d2a570e3d2053aed9ee8758",
+    "content-hash": "7880252614f93169281782cef184142f",
+    "packages": [
+        {
+            "name": "objective-php/config",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/objective-php/config.git",
+                "reference": "727a3f320792fbd046bd4f86ac59b587dc8ecaac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/objective-php/config/zipball/727a3f320792fbd046bd4f86ac59b587dc8ecaac",
+                "reference": "727a3f320792fbd046bd4f86ac59b587dc8ecaac",
+                "shasum": ""
+            },
+            "require": {
+                "objective-php/matcher": "1.*",
+                "objective-php/primitives": "1.*",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "objective-php/phpunit-extension": "1.0",
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ObjectivePHP\\Config\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gauthier 'Rusty' Delamarre",
+                    "email": "gauthier@objective-php.org",
+                    "role": "lead"
+                }
+            ],
+            "description": "Config component for ObjectivePHP",
+            "homepage": "https://github.com/objective-php/config",
+            "keywords": [
+                "config",
+                "objective-php"
+            ],
+            "time": "2016-05-05 13:50:33"
+        },
+        {
+            "name": "objective-php/data-processor",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/objective-php/data-processor.git",
+                "reference": "0c69a7e4443d26e94944b818701cf991994b38a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/objective-php/data-processor/zipball/0c69a7e4443d26e94944b818701cf991994b38a7",
+                "reference": "0c69a7e4443d26e94944b818701cf991994b38a7",
+                "shasum": ""
+            },
+            "require": {
+                "objective-php/matcher": "1.*",
+                "objective-php/primitives": "1.*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "objective-php/application": "dev-master",
+                "objective-php/events-handler": "1.0.*",
+                "objective-php/message": "0.9.*",
+                "objective-php/phpunit-extension": "*",
+                "objective-php/services-factory": "1.0.*",
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ObjectivePHP\\DataProcessor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gauthier 'Rusty' Delamarre",
+                    "email": "gauthier@objective-php.org",
+                    "role": "lead"
+                }
+            ],
+            "description": "Objective PHP Data Processor component",
+            "homepage": "https://github.com/objective-php/data-processor",
+            "keywords": [
+                "data procesosr",
+                "objective php"
+            ],
+            "time": "2016-05-05 15:32:33"
+        },
+        {
+            "name": "objective-php/invokable",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/objective-php/invokable.git",
+                "reference": "5233df84bf3330dcba01ce77ff6820ce92d021b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/objective-php/invokable/zipball/5233df84bf3330dcba01ce77ff6820ce92d021b4",
+                "reference": "5233df84bf3330dcba01ce77ff6820ce92d021b4",
+                "shasum": ""
+            },
+            "require": {
+                "objective-php/primitives": "1.*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "objective-php/application": "dev-master",
+                "objective-php/events-handler": "~1.0.0@dev",
+                "objective-php/services-factory": "~1.0.0@dev",
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ObjectivePHP\\Invokable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gauthier 'Rusty' Delamarre",
+                    "email": "gauthier@objective-php.org",
+                    "role": "lead"
+                }
+            ],
+            "description": "Objective PHP Invokable component",
+            "homepage": "https://github.com/objective-php/invokable",
+            "keywords": [
+                "invokable",
+                "objective php"
+            ],
+            "time": "2016-05-05 14:52:56"
+        },
+        {
+            "name": "objective-php/matcher",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/objective-php/matcher.git",
+                "reference": "1418bfb33ca2b1ad680951c8bc0dc99af2aef81e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/objective-php/matcher/zipball/1418bfb33ca2b1ad680951c8bc0dc99af2aef81e",
+                "reference": "1418bfb33ca2b1ad680951c8bc0dc99af2aef81e",
+                "shasum": ""
+            },
+            "require": {
+                "objective-php/phpunit-extension": "~1.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ObjectivePHP\\Matcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gauthier 'Rusty' Delamarre",
+                    "email": "gauthier@objective-php.org",
+                    "role": "lead"
+                }
+            ],
+            "description": "Generic engine to match identifiers against simple yet powerful patterns",
+            "homepage": "https://github.com/objective-php/matcher",
+            "keywords": [
+                "matcher",
+                "objective php"
+            ],
+            "time": "2016-05-05 13:13:34"
+        },
+        {
+            "name": "objective-php/notification",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/objective-php/notification.git",
+                "reference": "e24689fa1c1644bf9ca513805137fb5e68bc6177"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/objective-php/notification/zipball/e24689fa1c1644bf9ca513805137fb5e68bc6177",
+                "reference": "e24689fa1c1644bf9ca513805137fb5e68bc6177",
+                "shasum": ""
+            },
+            "require": {
+                "objective-php/matcher": "1.*",
+                "objective-php/primitives": "1.*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "objective-php/phpunit-extension": "1.*",
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ObjectivePHP\\Notification\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gauthier 'Rusty' Delamarre",
+                    "email": "gauthier@objective-php.org",
+                    "role": "lead"
+                },
+                {
+                    "name": "Jérôme 'Neofox' Schaeffer",
+                    "email": "jerome@objective-php.org",
+                    "role": "dev"
+                }
+            ],
+            "description": "Objective PHP Notification component",
+            "homepage": "https://github.com/objective-php/notification",
+            "keywords": [
+                "components",
+                "objective php"
+            ],
+            "time": "2016-05-05 14:02:15"
+        },
+        {
+            "name": "objective-php/phpunit-extension",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/objective-php/phpunit-extension.git",
+                "reference": "1b3e2b516585e828a947248d571b3f966b768e0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/objective-php/phpunit-extension/zipball/1b3e2b516585e828a947248d571b3f966b768e0f",
+                "reference": "1b3e2b516585e828a947248d571b3f966b768e0f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ObjectivePHP\\PHPUnit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gauthier 'Rusty' Delamarre",
+                    "email": "gauthier@objective-php.org",
+                    "role": "lead"
+                }
+            ],
+            "description": "Some add-ons for PHPUnit Unit Test Framework",
+            "homepage": "https://github.com/objective-php/phpunit-extension",
+            "keywords": [
+                "objective php",
+                "phpunit"
+            ],
+            "time": "2016-05-05 12:55:53"
+        },
+        {
+            "name": "objective-php/primitives",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/objective-php/primitives.git",
+                "reference": "a67967cccffae240110052df0d4e414fa7386e3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/objective-php/primitives/zipball/a67967cccffae240110052df0d4e414fa7386e3b",
+                "reference": "a67967cccffae240110052df0d4e414fa7386e3b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "objective-php/phpunit-extension": "1.*",
+                "phpunit/phpunit": "5.*"
+            },
+            "suggest": {
+                "objective-php/matcher": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ObjectivePHP\\Primitives\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gauthier 'Rusty' Delamarre",
+                    "email": "gauthier@objective-php.org",
+                    "role": "lead"
+                },
+                {
+                    "name": "Ronan 'Gloo' Teissier",
+                    "email": "ronan@objective-php.org",
+                    "role": "dev"
+                }
+            ],
+            "description": "Primitives classes for ObjectivePHP",
+            "homepage": "https://github.com/objective-php/primitives",
+            "keywords": [
+                "objective php",
+                "primitives"
+            ],
+            "time": "2016-05-05 13:28:19"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

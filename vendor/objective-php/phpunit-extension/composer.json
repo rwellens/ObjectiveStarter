@@ -1,0 +1,28 @@
+{
+  "name": "objective-php/phpunit-extension",
+  "description": "Some add-ons for PHPUnit Unit Test Framework",
+  "type": "library",
+  "keywords": [
+    "phpunit", "objective php"
+  ],
+  "homepage": "https://github.com/objective-php/phpunit-extension",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Gauthier 'Rusty' Delamarre",
+      "email": "gauthier@objective-php.org",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ObjectivePHP\\PHPUnit\\": "src/"
+    }
+  }
+}
